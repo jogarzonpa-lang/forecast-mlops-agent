@@ -145,8 +145,8 @@ La solución fue diseñada para desplegarse en AWS con los siguientes componente
 
 ## 👤 Autor
 
-**[Jose Sebastian Garzon Parra]**  
-  [Sebasgp1411@gmail.com]
+**Jose Sebastian Garzon Parra**  
+  Sebasgp1411@gmail.com
 
 ---
 
