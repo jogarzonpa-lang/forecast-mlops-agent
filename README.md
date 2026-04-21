@@ -57,7 +57,7 @@ forecast-mlops-agent/
 │   └── Diagrama_Agent2.drawio     # Fuente editable del diagrama
 │
 └── 📂 datos/
-    └── READMEs.md            # Descripción de variables (datos no incluidos)
+    └── README_datos.md            # Descripción de variables (datos no incluidos)
 ```
 
 
