@@ -39,7 +39,7 @@ insumo para modelos XGBoost que predicen el costo futuro de los equipos.
 
 ```
 forecast-mlops-agent/
-│
+├── README.md 
 ├── 📓 modelo/
 │   ├── Modelo_FCST.ipynb          # Análisis completo comentado paso a paso
 │   └── Modelo_FCST.pdf            # Versión exportada del notebook
@@ -56,8 +56,11 @@ forecast-mlops-agent/
 │   ├── Diagrama.jpg               # Arquitectura cloud AWS propuesta
 │   └── Diagrama_Agent2.drawio     # Fuente editable del diagrama
 │
-└── 📂 datos/
-    └── README_datos.md            # Descripción de variables (datos no incluidos)
+└── 📂 datos/                   # Datos del modelo
+    └──X.txt
+    └──Y.txt
+    └──Z.txt
+    └──historico_equipos.txt          
 ```
 
 
@@ -69,6 +72,46 @@ Permite:
 - Consultar el pronóstico de Price_Equipo1 y Price_Equipo2 para distintos horizontes
 - Interpretar los resultados del modelo (MAPE, RMSE, intervalos)
 - Enriquecer el análisis con contexto macroeconómico y noticias del sector
+
+## 💬 ¿Cómo interactuar con el agente?
+
+El agente está diseñado para responder consultas en lenguaje natural y permitir la exploración tanto de los resultados como de la metodología utilizada.
+
+Se recomienda iniciar con preguntas sencillas como las siguientes:
+
+---
+
+### 📈 Pronósticos
+
+```text
+Pronostica a 30 dias
+Pronostica a 60 dias
+Pronostica a 90 dias
+Pronostica a 120 dias
+Pronostica a X dias
+
+### 📊 Análisis exploratorio (EDA)
+Muestrame los analisis de correlacion
+Muestrame el EDA
+Que variables eliminaste y por que
+
+### 🧠 Interpretabilidad del modelo
+Muestrame los analisis de shapvalues
+Muestrame la importancia de variables
+Explicame el modelo XGBoost
+
+### ⚙️ Metodología
+Muestrame la metodologia
+Por que se uso SARIMA
+Por que se elimino Price_Y
+
+
+### 🌎 Contexto económico
+
+Que opinas del pronostico con base en el mercado
+Explicame el impacto macroeconomico
+
+
 
 ### Ejecutar localmente
 
