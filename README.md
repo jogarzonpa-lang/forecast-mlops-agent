@@ -26,7 +26,7 @@ insumo para modelos XGBoost que predicen el costo futuro de los equipos.
 |-------|-------------|-----------|
 | Análisis exploratorio | Pandas, Seaborn | Correlaciones, calidad de datos |
 | Descarte de variables | Regresión OLS | Eliminación de Price_Y (multicolinealidad) |
-| Estacionariedad | Prueba ADF | Validar diferenciación |
+| Estacionalidad | Prueba ADF | Validar diferenciación |
 | Proyección de insumos | SARIMA(1,1,1)(1,1,1,12) | Forecast de Price_X y Price_Z |
 | Feature engineering | Rolling mean + Lags | Captura de memoria temporal |
 | Predicción de equipos | XGBoost | Modelos finales Equipo 1 y Equipo 2 |
