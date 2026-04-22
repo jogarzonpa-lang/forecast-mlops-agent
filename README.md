@@ -71,6 +71,7 @@ Permite:
 
 - Consultar el pronóstico de Price_Equipo1 y Price_Equipo2 para distintos horizontes
 - Interpretar los resultados del modelo (MAPE, RMSE, intervalos)
+- En agente muestra graficas y tablas para que sea facil de exportar y visualizar.
 - Enriquecer el análisis con contexto macroeconómico y noticias del sector
 
 ## 💬 ¿Cómo interactuar con el agente?
