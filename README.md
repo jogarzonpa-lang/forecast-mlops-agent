@@ -39,6 +39,16 @@ insumo para modelos XGBoost que predicen el costo futuro de los equipos.
 
 ```
 forecast-mlops-agent/
+├── index.html          ← Informe resumido en HTML
+└── assets/
+    ├── correlacion.png
+    ├── acf_pacf.png
+    ├── shap_equipo1.png
+    ├── shap_equipo2.png
+    ├── forecast_x.png
+    ├── forecast_z.png
+    ├── forecast_equipo1.png
+    └── forecast_equipo2.png
 ├── README.md 
 ├── 📓 modelo/
 │   ├── Modelo_FCST.ipynb          # Análisis completo comentado paso a paso
