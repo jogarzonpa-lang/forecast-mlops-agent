@@ -83,7 +83,6 @@ Se recomienda iniciar con preguntas sencillas como las siguientes:
 
 ### 📈 Pronósticos
 
-```text
 Pronostica a 30 dias
 Pronostica a 60 dias
 Pronostica a 90 dias
