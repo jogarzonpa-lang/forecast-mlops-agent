@@ -83,32 +83,32 @@ Se recomienda iniciar con preguntas sencillas como las siguientes:
 
 ### 📈 Pronósticos
 
-Pronostica a 30 dias
-Pronostica a 60 dias
-Pronostica a 90 dias
-Pronostica a 120 dias
-Pronostica a X dias
+- Pronostica a 30 dias
+- Pronostica a 60 dias
+- Pronostica a 90 dias
+- Pronostica a 120 dias
+- Pronostica a X dias
 
 ### 📊 Análisis exploratorio (EDA)
-Muestrame los analisis de correlacion
-Muestrame el EDA
-Que variables eliminaste y por que
+- Muestrame los analisis de correlacion
+- Muestrame el EDA
+- Que variables eliminaste y por que
 
 ### 🧠 Interpretabilidad del modelo
-Muestrame los analisis de shapvalues
-Muestrame la importancia de variables
-Explicame el modelo XGBoost
+- Muestrame los analisis de shapvalues
+- Muestrame la importancia de variables
+- Explicame el modelo XGBoost
 
 ### ⚙️ Metodología
-Muestrame la metodologia
-Por que se uso SARIMA
-Por que se elimino Price_Y
+- Muestrame la metodologia
+- Por que se uso SARIMA
+- Por que se elimino Price_Y
 
 
 ### 🌎 Contexto económico
 
-Que opinas del pronostico con base en el mercado
-Explicame el impacto macroeconomico
+- Que opinas del pronostico con base en el mercado
+- Explicame el impacto macroeconomico
 
 
 
