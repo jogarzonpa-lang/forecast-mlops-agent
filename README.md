@@ -127,8 +127,8 @@ Se recomienda iniciar con preguntas sencillas como las siguientes:
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/jogarzonpa/forecast-costos-equipos.git
-cd forecast-costos-equipos
+git clone https://github.com/jogarzonpa-lang/forecast-mlops-agent.git
+cd forecast-mlops-agent
 
 # 2. Instalar dependencias
 pip install -r agente/requirements.txt
